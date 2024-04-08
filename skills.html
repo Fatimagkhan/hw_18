@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Montaga' rel='stylesheet'>
+        <title>Fatima's Portfolio</title>
+        <style> 
+        .topnav{
+            background-color:#a6a589 ;
+            overflow: hidden;
+            border-top: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+        }
+
+        .topnav a{
+            float: left;
+            text-align: center;
+            color: black;
+            font-family: 'Montaga';
+            padding: 14px 16px;
+            font-size: 20px;
+            font-weight: normal;
+            border-right: 1px solid #000000;
+            border-left: 1px solid #000000;
+        }
+        .topnav-right {
+            float: right;
+        }
+        .topnav a:hover{
+            background-color: #8B8A72;
+            color:black;
+        }
+
+        .topnav a:active{
+            background-color:#E3E1CA;
+            color:black; 
+        }
+        h1{
+            font-size: 72px;
+            font-family: 'Montaga';
+            margin-left: 70px;
+        }
+
+        h2{
+            font-size: 58px;
+            font-family: 'Montaga';
+            margin-left: 140px;
+        }
+        h3{
+            font-size: 40px;
+            font-family:'Montaga';
+            margin-left: 275px;
+        }
+        body{
+            background-color:#E3E1CA;
+        }
+        .footer{
+            position: fixed;
+            left:0;
+            bottom:0;
+            width: 100%;
+            background-color: #8B8A72;
+            color:black;
+            border-top: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+            border-right: 1px solid #000000;
+            border-left: 1px solid #000000;
+        }
+        .footer p{
+            text-align: center;
+        }
+        .container {
+            display: flex; /* Use Flexbox */
+            justify-content: space-between; /* Space between the columns */
+            padding: 20px; /* Padding around the content */
+  }
+
+  /* Individual column styling */
+  .column {
+    flex: 1; /* Each column takes up an equal amount of space */
+    margin: 0 10px; /* Margin between columns */
+    background-color: #8B8A72; /* khaki background */
+    padding: 20px; /* Padding inside each column */
+  }
+  /* Responsive design: Stacking columns on smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column; /* Stack columns vertically */
+    }
+    .column {
+      margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+  }
+
+            </style>
+    </head>
+    <body>
+        <header>
+           <div class="topnav">
+                    <a class = "active" href = "index.html">Menu</a>
+                    <a href="about.html">About</a> 
+                    <a href="skills.html">Skills</a> 
+                    <a href="cases.html">Cases</a>
+                <div class ="topnav-right">
+                <a href="#Contact Me">Contact Me</a>
+                </div>
+            </div>
+           
+        </header>
+        <h1>My Skills.</h1>
+        <div class="container">
+            <div class="column">
+               <b><p>User Research:</p> </b>
+                <p>Asking in depth but concise questions in order to learn and understand the motivations and behaviors of the user. 
+                </p>
+            </div>
+            <div class="column">
+                <b><p>User Empathy:</p></b>
+                <p>Building user empathy by understanding the users and developing solutions that connect with users on a deep level. 
+                </p>
+            </div>
+            <div class="column">
+              <b> <p>Qualitative Interviews:</p></b>
+            <p>Capturing the voice of the user by noting details, stories and first hand testimonials. 
+            </p>
+            </div>
+          </div>
+
+        <div class ="footer">
+            <p>Copyright 2024</p>
+        </div>
+    </body>
+</html>
